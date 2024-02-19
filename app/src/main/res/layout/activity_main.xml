@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/logo_img"
+        android:layout_width="200dp"
+        android:layout_height="260dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/les"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/logo"/>
+
+    <TextView
+        android:id="@+id/appNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="28sp"
+        android:layout_below="@id/logo_img"
+        android:layout_centerHorizontal="true"
+         />
+
+    <TextView
+        android:id="@+id/Text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/details"
+        android:textSize="20sp"
+        android:layout_below="@id/appNameTextView"
+        android:layout_centerHorizontal="true"
+         />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:id="@+id/startButton"
+        android:layout_below="@id/Text2"
+        android:layout_centerHorizontal="true"
+         />
+
+</RelativeLayout>

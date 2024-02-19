@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyWay</string>
+    <string name="details">Step counter</string>
+    <string name="logo">Logo MyWay App</string>
+    <string name="tlacitko">Start a new walk</string>
+    <string name="tlacitko_konec">Stop a walk</string>
+    <string name="pocet_kroku">Steps I walked: %d</string>
+    <string name="gyow">Go your own way %s</string>
+</resources>
